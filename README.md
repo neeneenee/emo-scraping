@@ -1,16 +1,3 @@
-//requirements
-
-streamlit>=1.46.0
-transformers>=4.52.4
-sentencepiece>=0.2.0
-fugashi>=1.5.1
-unidic-lite>=1.0.8
-torch>=2.7.1
-pandas>=2.3.0
-plotly>=6.1.2
-requests>=2.32.4
-beautifulsoup4>=4.13.4
-lxml>=5.4.0
 
 ## 📘 日本語ポスト分析アプリ
 
@@ -34,7 +21,34 @@ source env/bin/activate    # Windows: env\Scripts\activate
 pip install -r requirements.txt
 
 
-##🚀 実行
+
+## 🚀 実行
+
 streamlit run app.py
+
 ブラウザが自動で立ち上がります。
 
+## requirements
+
+streamlit>=1.46.0
+
+transformers>=4.52.4
+
+sentencepiece>=0.2.0
+
+fugashi>=1.5.1
+
+unidic-lite>=1.0.8
+
+torch>=2.7.1
+
+
+pandas>=2.3.0
+
+plotly>=6.1.2
+
+requests>=2.32.4
+
+beautifulsoup4>=4.13.4
+
+lxml>=5.4.0
