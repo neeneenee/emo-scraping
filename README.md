@@ -24,9 +24,13 @@ lxml>=5.4.0
 ## 📦 インストール
 
 git clone https://github.com/neeneenee/emo-scraping.git
+
 cd emo-scraping
+
 python -m venv env
+
 source env/bin/activate    # Windows: env\Scripts\activate
+
 pip install -r requirements.txt
 
 
